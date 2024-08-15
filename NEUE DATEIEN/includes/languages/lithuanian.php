@@ -6,7 +6,7 @@
 * Zen Cart German Version - www.zen-cart-pro.at
 * @copyright Portions Copyright 2003 osCommerce
 * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
-* @version $Id: lithuanian.php 2024-08-15 09:50:32Z webchills $
+* @version $Id: lithuanian.php 2024-08-15 17:42:32Z webchills $
 */
 // -----
 // Since the languages are now loaded via classes, the $locales definition
@@ -61,7 +61,7 @@ define('BOX_INFORMATION_ABOUT_US','Apie mus');
 define('BOX_INFORMATION_CONDITIONS','Naudojimo sąlygos');
 define('BOX_INFORMATION_WIDERRUFSRECHT', 'Atšaukimo sąlyga');
 define('BOX_INFORMATION_ZAHLUNGSARTEN', 'Mokėjimo galimybės');
-define('BOX_INFORMATION_IMPRESSUM', 'Imprint');
+define('BOX_INFORMATION_IMPRESSUM', 'Atspaudas');
 define('BOX_INFORMATION_CONTACT','Susisiekite su mumis');
 define('BOX_INFORMATION_DISCOUNT_COUPONS','Nuolaidų kuponai');
 define('BOX_INFORMATION_ORDER_STATUS','Užsakymo būsena');
@@ -246,7 +246,7 @@ define('HEADING_SEARCH_HELP','Search Help');
 define('HEADING_SHIPPING_METHOD','Pristatymo metodas');
 define('HEADING_TAX','Mokesčiai');
 define('HEADING_TOTAL','Iš viso');
-define('HTML_PARAMS','');
+define('HTML_PARAMS','dir="ltr" lang="lt"');
 define('ICON_ERROR_ALT','Klaida');
 define('ICON_IMAGE_ERROR','error.png');
 define('ICON_IMAGE_SUCCESS','success.png');
