@@ -1,12 +1,11 @@
 <?php
 /**
- * Zen Cart German Specific (158 code in 157)
- 
+ * Zen Cart German Specific (158 code in 157) 
  * @copyright Copyright 2003-2024 Zen Cart Development Team
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
- * @version $Id: login.php 2023-10-29 09:49:16Z webchills $
+ * @version $Id: login.php 2024-08-15 17:49:16Z webchills $
  */
 
 define('NAVBAR_TITLE', 'Prisijungti');
@@ -34,6 +33,6 @@ define('TEXT_PRIVACY_CONDITIONS_CONFIRM', '<span class="privacyagree">Perskaiči
 
 define('ERROR_SECURITY_ERROR', 'There was a security error when trying to login.');
 
-define('TEXT_LOGIN_BANNED', 'Error: Access denied.');
-define('HEADING_PAYPAL_CUSTOMER_SPLIT', 'Login and Pay with PayPal');
-define('TEXT_PAYPAL_CUSTOMER_SPLIT', 'Express Checkout with PayPal: When you login with PayPal using the PayPal Express Button, your PayPal contact details are used for a customer account in our online shop. You don\'t have to type in your data and pay via PayPal.');
+define('TEXT_LOGIN_BANNED', 'Klaida: Prieiga uždrausta.');
+define('HEADING_PAYPAL_CUSTOMER_SPLIT', 'Prisijunkite ir mokėkite per PayPal');
+define('TEXT_PAYPAL_CUSTOMER_SPLIT', 'Express Checkout su PayPal: Kai prisijungiate prie PayPal naudodami PayPal Express mygtuką, jūsų PayPal kontaktiniai duomenys naudojami kliento paskyrai mūsų internetinėje parduotuvėje. Jums nereikia įvesti savo duomenų ir mokėti per PayPal.');
