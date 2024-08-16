@@ -1,6 +1,6 @@
 ##### add lithuanian country names
 
-INSERT IGNORE INTO `countries_name` (`countries_id`, `language_id`, `countries_name`) VALUES
+REPLACE INTO `countries_name` (`countries_id`, `language_id`, `countries_name`) VALUES
 (1, 370, 'Afganistan'),
 (2, 370, 'Albanija'),
 (3, 370, 'Alžyras'),

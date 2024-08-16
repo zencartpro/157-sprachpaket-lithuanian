@@ -5,23 +5,23 @@ if (IS_ADMIN_FLAG === true) {
 define('MODULE_PAYMENT_BRAINTREE_TEXT_ADMIN_DESCRIPTION', 'Credit Card Payments via Braintree<br><br><img src="images/braintree-logo.png" alt="Braintree"/><br><br><a href="https://www.braintreepayments.com/" target="_blank">Braintree Info</a><br><br><a href="https://sandbox.braintreegateway.com/login" target="_blank">Braintree Sandbox Login</a><br><br><a href="https://www.braintreegateway.com/login" target="_blank">Braintree Live Login</a>');
 }
 
-define('MODULE_PAYMENT_BRAINTREE_TEXT_DESCRIPTION', 'Credit Card');
-define('MODULE_PAYMENT_BRAINTREE_TEXT_TITLE', 'Credit Card');
+define('MODULE_PAYMENT_BRAINTREE_TEXT_DESCRIPTION', 'Kredito kortelė');
+define('MODULE_PAYMENT_BRAINTREE_TEXT_TITLE', 'Kredito kortelė');
 define('MODULE_PAYMENT_BRAINTREE_DP_TEXT_TYPE', 'Credit Card (BT)');
 define('MODULE_PAYMENT_BRAINTREE_PF_TEXT_TYPE', 'Credit Card (PF)');
-define('MODULE_PAYMENT_BRAINTREE_ERROR_HEADING', 'We\'re sorry, but we were unable to process your credit card.');
-define('MODULE_PAYMENT_BRAINTREE_TEXT_CARD_ERROR', 'The credit card information you entered contains an error.  Please check it and try again.');
-define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_FIRSTNAME', 'Cardholder First Name:');
-define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_LASTNAME', 'Cardholder Last Name:');
-define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_OWNER', 'Cardholder Name:');
+define('MODULE_PAYMENT_BRAINTREE_ERROR_HEADING', 'Atsiprašome, bet negalėjome apdoroti jūsų kredito kortelės.');
+define('MODULE_PAYMENT_BRAINTREE_TEXT_CARD_ERROR', 'Įvestoje kredito kortelės informacijoje yra klaida.  Patikrinkite ją ir bandykite dar kartą.');
+define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_FIRSTNAME', 'Kortelės turėtojo vardas:');
+define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_LASTNAME', 'Kortelės turėtojo pavardė:');
+define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_OWNER', 'Kortelės turėtojo pavadinimas:');
 define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_TYPE', 'Card Type:');
 define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_NUMBER', 'Card Number:');
-define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_EXPIRES', 'Card Expiration Date:<br>(Month / Year)');
+define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_EXPIRES', 'Kortelės galiojimo pabaigos data:<br>(mėnuo / metai)');
 define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_ISSUE', 'Card Issue Date:');
 define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_MAESTRO_ISSUENUMBER', 'Maestro Issue No.:');
-define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_CHECKNUMBER', '<br>CVV Number:<br>(on back of card)');
+define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_CHECKNUMBER', '<br>CVV numeris:<br>(kitoje kortelės pusėje)');
 define('MODULE_PAYMENT_BRAINTREE_TEXT_TRANSACTION_FOR', 'Transaction for');
-define('MODULE_PAYMENT_BRAINTREE_TEXT_DECLINED', 'Your credit card was declined. Please try another card or contact your bank for more information.');
+define('MODULE_PAYMENT_BRAINTREE_TEXT_DECLINED', 'Jūsų kredito kortelė buvo atmesta. Išbandykite kitą kortelę arba kreipkitės į savo banką dėl daugiau informacijos.');
 define('MODULE_PAYMENT_BRAINTREE_CANNOT_BE_COMPLETED', 'We were not able to process your order. Please select an alternate payment method, or contact the store owner for assistance.');
 define('MODULE_PAYMENT_BRAINTREE_INVALID_RESPONSE', 'We were not able to process your order. Please try again, select an alternate payment method, or contact the store owner for assistance.');
 define('MODULE_PAYMENT_BRAINTREE_TEXT_GEN_ERROR', 'An error occurred when we tried to contact the payment processor. Please try again, select an alternate payment method, or contact the store owner for assistance.');

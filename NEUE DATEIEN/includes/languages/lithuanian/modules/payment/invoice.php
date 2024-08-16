@@ -4,7 +4,7 @@
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0 
- * @version $Id: invoice.php 2022-01-29 08:42:14Z webchills $
+ * @version $Id: invoice.php 2024-08-16 09:42:14Z webchills $
  */
 
 if (IS_ADMIN_FLAG === true) {
@@ -23,12 +23,12 @@ $tag = date('d.m.Y', $tstamp);
 }
 // eof Berechnung Zahlungsziel
 
-define('MODULE_PAYMENT_INVOICE_TEXT_TITLE', 'Invoice (payable up to '. $tag . ')');
+define('MODULE_PAYMENT_INVOICE_TEXT_TITLE', 'Sąskaita faktūra (apmokama iki '. $tag . ')');
 define('MODULE_PAYMENT_INVOICE_TEXT_DESCRIPTION', '');
 define('MODULE_PAYMENT_INVOICE_TEXT_EMAIL_FOOTER', 
-"Please use the following details to transfer your total order value:\n" .
-"\nBank Name:  " . MODULE_PAYMENT_EUTRANSFER_BANKNAM .
-"\nAccount Holder: " . MODULE_PAYMENT_EUTRANSFER_ACCNAM . 
+"Norėdami pervesti visą užsakymo vertę, naudokite šiuos duomenis:\n" .
+"\nBanko pavadinimas:  " . MODULE_PAYMENT_EUTRANSFER_BANKNAM .
+"\nSąskaitos turėtojas: " . MODULE_PAYMENT_EUTRANSFER_ACCNAM . 
 "\nIBAN:    " . MODULE_PAYMENT_EUTRANSFER_ACCIBAN .
 "\nBIC/SWIFT:   " . MODULE_PAYMENT_EUTRANSFER_BANKBIC . 
 "\n");
