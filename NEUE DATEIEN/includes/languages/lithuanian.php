@@ -6,7 +6,7 @@
 * Zen Cart German Version - www.zen-cart-pro.at
 * @copyright Portions Copyright 2003 osCommerce
 * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
-* @version $Id: lithuanian.php 2024-08-15 17:42:32Z webchills $
+* @version $Id: lithuanian.php 2024-08-17 13:42:32Z webchills $
 */
 // -----
 // Since the languages are now loaded via classes, the $locales definition
@@ -360,16 +360,16 @@ define('TABLE_HEADING_IMAGE','Produkto vaizdas');
 define('TABLE_HEADING_LOGIN_DETAILS','Prisijungimo duomenys');
 define('TABLE_HEADING_MANUFACTURER','Gamintojas');
 define('TABLE_HEADING_MODEL','Modelis');
-define('TABLE_HEADING_NEW_PRODUCTS','New Products For %s');
+define('TABLE_HEADING_NEW_PRODUCTS','Nauji produktai %s');
 define('TABLE_HEADING_PHONE_FAX_DETAILS','Papildoma kontaktinė informacija');
 define('TABLE_HEADING_PRICE','Kaina');
 define('TABLE_HEADING_PRIVACY_CONDITIONS','Privatumo pareiškimas');
 define('TABLE_HEADING_PRODUCTS','Produkto pavadinimas');
 define('TABLE_HEADING_PRODUCT_NAME','Prekės pavadinimas');
 define('TABLE_HEADING_QUANTITY','Kiekis');
-define('TABLE_HEADING_REFERRAL_DETAILS','Were You Referred to Us?');
+define('TABLE_HEADING_REFERRAL_DETAILS','Ar buvote nukreiptas pas mus?');
 define('TABLE_HEADING_SHIPPING_ADDRESS','Pristatymo adresas');
-define('TABLE_HEADING_SPECIALS_INDEX','Monthly Specials For %s');
+define('TABLE_HEADING_SPECIALS_INDEX','Mėnesio pasiūlymai %s');
 define('TABLE_HEADING_STATUS_COMMENTS','Komentarai');
 define('TABLE_HEADING_STATUS_DATE','Data');
 define('TABLE_HEADING_STATUS_ORDER_STATUS','Užsakymo būsena');
@@ -380,7 +380,7 @@ define('TEXT_ADMIN_DOWN_FOR_MAINTENANCE','ĮSPĖJIMAS: šiuo metu interneto svet
 define('TEXT_ALL_CATEGORIES','Visos kategorijos');
 define('TEXT_ALL_MANUFACTURERS','Visi gamintojai');
 define('TEXT_ALSO_PURCHASED_PRODUCTS','Klientai, kurie pirko šį produktą, taip pat pirko...');
-define('TEXT_APPROVAVAL_REQUIRED','<strong>PAMINĖJIMAS:</strong> Prieš rodant atsiliepimus, juos reikia iš anksto patvirtinti.');
+define('TEXT_APPROVAL_REQUIRED','<strong>PAMINĖJIMAS:</strong> Prieš rodant atsiliepimus, juos reikia iš anksto patvirtinti.');
 define('TEXT_ASCENDINGLY','didėjančiai');
 define('TEXT_ATTRIBUTES_PRICE_WAS',' [buvo: ');
 define('TEXT_ATTRIBUTES_QTY_PRICES_HELP','Galimybės kiekio nuolaidos');
